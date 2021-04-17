@@ -1,0 +1,103 @@
+.mobile {
+  display: none;
+}
+
+.form-wrapper {
+  width: 100vw;
+  height: 100vh;
+  background-image: url("../img/front-2.png");
+  background-repeat: no-repeat;
+  background-position: bottom center;
+  background-size: contain;
+  padding-top: 5rem;
+}
+
+.form-bubble {
+  width: fit-content;
+  margin: auto;
+  background-color: white;
+  padding: 2rem 4rem;
+
+  h2 {
+    text-align: center;
+  }
+
+  .label-group {
+    padding: 1rem 0;
+
+    input {
+      margin: 0 .5rem;
+    }
+
+    &--text {
+      input {
+        background-color: #EEEEEE;
+        padding: 1rem 1rem;
+        width: 80%;
+      }
+    }
+  }
+
+  .label-inline {
+    display: inline-block;
+    padding: 0 0.5rem;
+  }
+}
+
+.btn-submit {
+  width: 80%;
+  margin: 0 10%;
+  padding: .5rem 1rem;
+  border: solid black 1px;
+  text-decoration: underline black;
+}
+
+@media only screen and (max-width: 780px) {
+  br {
+    display: none;
+  }
+
+  .mobile {
+    display: block !important;
+  }
+
+  .form-wrapper {
+    width: 100vw;
+    height: 100vh;
+    background-image: none;
+    background-color: white;
+    padding-top: 0;
+  }
+
+  .form-bubble {
+    width: fit-content;
+    margin: auto;
+    background-color: white;
+    padding: 1rem 2rem;
+
+    h2 {
+      text-align: center;
+    }
+
+    .label-group {
+      padding: .5rem 0;
+
+      input {
+        margin: 0 .25rem;
+      }
+
+      &--text {
+        input {
+          background-color: #EEEEEE;
+          padding: .5rem .5rem;
+          width: auto;
+        }
+      }
+    }
+
+    .label-inline {
+      display: block;
+      padding: 0 0.5rem;
+    }
+  }
+}
