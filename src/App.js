@@ -72,7 +72,7 @@ function App() {
                         512 51
                     </p>
 
-                    <img src={Mapa} alt="Mapa"/>
+                    <a href="https://mapy.cz/zakladni?x=15.3690748&y=50.5277814&z=17&source=firm&id=13016957"><img src={Mapa} alt="Mapa"/></a>
 
                     <p><a href="https://mapy.cz/zakladni?x=15.3690748&y=50.5277814&z=17&source=firm&id=13016957">odkaz na mapy.cz</a></p>
                     <p>
