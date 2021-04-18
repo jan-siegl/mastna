@@ -51,6 +51,11 @@
   border: solid black 1px;
   text-decoration: underline black;
   background-color: #E7E7E7;
+  &:hover {
+    color: black;
+    text-decoration: underline black;
+    background-color: white;
+  }
 }
 
 @media only screen and (max-width: 780px) {

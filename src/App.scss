@@ -41,18 +41,9 @@
 
 @media only screen and (max-width: 780px) {
   .hero {
-    height: 100vh;
-    background-color: white;
-    display: flex;
-    flex-flow: column;
-    align-items: center;
-    justify-content: space-between;
     padding: 1rem 2rem 2rem;
     h1 {
       font-size: 2rem;
-    }
-    img {
-      height: 60%;
     }
     p {
       font-size: 1.5rem;
@@ -60,10 +51,6 @@
     a {
       font-size: 1rem;
       padding: .5rem 1rem;
-      border: solid black 1px;
-      text-decoration: underline black;
-      color: black;
-      background-color: #E7E7E7;
 
       &:active {
         color: black;
@@ -73,3 +60,5 @@
     }
   }
 }
+
+@import "main.scss";
