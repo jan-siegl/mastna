@@ -1,3 +1,7 @@
+.mobile {
+  display: none;
+}
+
 .hero {
   height: 100vh;
   background-color: white;
@@ -33,10 +37,15 @@
 
 
 @media only screen and (max-width: 780px) {
+  .mobile {
+    display: block !important;
+  }
+
   .hero {
     padding: 1rem 2rem 2rem;
     h1 {
       font-size: 2rem;
+      text-align: center;
     }
     p {
       font-size: 1.5rem;

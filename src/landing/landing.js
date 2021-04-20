@@ -14,7 +14,7 @@ function Landing() {
     return (
      <div className="landing">
          <div className="hero">
-             <h1>Adam Slaměna & Eliška Machátová</h1>
+             <h1>Adam Slaměna <br className="mobile"/>& <br className="mobile"/>Eliška Machátová</h1>
              <img src={Kolaz} alt="Adam a Eliska"/>
              <p>24/7/2021 13:00</p>
              <Link to="/rsvp">dejte nám vědět, že dorazíte</Link>

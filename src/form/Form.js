@@ -44,7 +44,7 @@ function Form() {
                             <input type="text" name="email" id="emailTxt" value={email} onChange={e => setEmail(e.target.value)}/>
                         </div>
 
-                        <div className="label-group">
+                        <div className="label-group label-pocty">
                             <label htmlFor="osobyTxt">osob:</label>
                             <div className="label-inline">
                                 <input type="radio" id="osobTxt1" name="osob" value="1" onChange={e => setOsob(e.target.value)}/>
@@ -61,7 +61,7 @@ function Form() {
                             <div className="label-inline">
                                 <input type="radio" id="osobTxt4" name="osob" value="4" onChange={e => setOsob(e.target.value)}/>
                                 <label htmlFor="osobTxt4">4</label>
-                            </div>
+                            </div><br className="mobile"/>
                             <label htmlFor="detiiTxt">z toho dětí:</label>
                             <div className="label-inline">
                                 <input type="radio" id="detiTxt0" name="deti" value="0" onChange={e => setDeti(e.target.value)}/>
@@ -100,32 +100,37 @@ function Form() {
                         <div className="label-group">
                             <label htmlFor="">rád:</label>
                             <div className="label-inline">
-                                <input type="radio" id="penzionTxt" name="spani" value="penzion" onChange={e => setSpani(e.target.value)}/><br className="mobile"/>
+                                <input type="radio" id="penzionTxt" name="spani" value="penzion" onChange={e => setSpani(e.target.value)}/>
                                 <label htmlFor="penzionTxt">zajistím si lůžko v nedalekém penzionu</label>
                             </div>
                             <br/>
+                            <label htmlFor="" className="white-label">rád:</label>
                             <div className="label-inline">
-                                <input type="radio" id="postelTxt" name="spani" value="postel" onChange={e => setSpani(e.target.value)}/><br className="mobile"/>
+                                <input type="radio" id="postelTxt" name="spani" value="postel" onChange={e => setSpani(e.target.value)}/>
                                 <label htmlFor="postelTxt">přespím v továrně na posteli</label>
                             </div>
                             <br/>
+                            <label htmlFor="" className="white-label">rád:</label>
                             <div className="label-inline">
-                                <input type="radio" id="matraceTxt" name="spani" value="matrace" onChange={e => setSpani(e.target.value)}/><br className="mobile"/>
+                                <input type="radio" id="matraceTxt" name="spani" value="matrace" onChange={e => setSpani(e.target.value)}/>
                                 <label htmlFor="matraceTxt">přespím v továrně na matraci</label>
                             </div>
                             <br/>
+                            <label htmlFor="" className="white-label">rád:</label>
                             <div className="label-inline">
-                                <input type="radio" id="karimatkaTxt" name="spani" value="karimatka" onChange={e => setSpani(e.target.value)}/><br className="mobile"/>
+                                <input type="radio" id="karimatkaTxt" name="spani" value="karimatka" onChange={e => setSpani(e.target.value)}/>
                                 <label htmlFor="karimatkaTxt">ulehnu kdekoliv uvnitř na vlastní karimatku</label>
                             </div>
                             <br/>
+                            <label htmlFor="" className="white-label">rád:</label>
                             <div className="label-inline">
-                                <input type="radio" id="sirakTxt" name="spani" value="sirak" onChange={e => setSpani(e.target.value)}/><br className="mobile"/>
+                                <input type="radio" id="sirakTxt" name="spani" value="sirak" onChange={e => setSpani(e.target.value)}/>
                                 <label htmlFor="sirakTxt">nespím a když už tak v autě/pod širákem</label>
                             </div>
                             <br/>
+                            <label htmlFor="" className="white-label">rád:</label>
                             <div className="label-inline">
-                                <input type="radio" id="odjedeTxt" name="spani" value="odjede" onChange={e => setSpani(e.target.value)}/><br className="mobile"/>
+                                <input type="radio" id="odjedeTxt" name="spani" value="odjede" onChange={e => setSpani(e.target.value)}/>
                                 <label htmlFor="odjedeTxt">pojedu večer domů</label>
                             </div>
                         </div>

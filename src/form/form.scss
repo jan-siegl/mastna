@@ -58,6 +58,10 @@
   }
 }
 
+.white-label {
+  color: white;
+}
+
 @media only screen and (max-width: 780px) {
   br {
     display: none;
@@ -105,5 +109,15 @@
       display: block;
       padding: 0 0.5rem;
     }
+
+    .label-pocty {
+      .label-inline {
+        display: inline-block;
+      }
+    }
+  }
+
+  .white-label {
+    display: none;
   }
 }
