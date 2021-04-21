@@ -55,7 +55,7 @@ function Landing() {
 
                  <h2>Dary?</h2>
                  <p>Pokud nemáte v rukávu nějaký skvělý nápad na svatební dar, můžete se inspirovat <a
-                     href="https://youtu.be/eqayXnc2XKY">tady</a>.</p>
+                     href="https://youtu.be/eqayXnc2XKY" target="_blank">tady</a>.</p>
 
                  <h2>Něco s sebou?</h2>
                  <p>Máme na vás spíše netradiční prosbu. Protože memes hrají velkou roli v našich životech a potažmo
@@ -65,7 +65,7 @@ function Landing() {
                  <h2>Kde to bude?</h2>
                  <p>
                      továrna Mastných, bývalá tklacovna v Lomnici nad Popelkou <br/>
-                     Abyste si mohli dopředu zmapovat terén, další info najdete na stránkách <a href="https://www.tovarna-mastnych.eu/">továrny.</a> <br/>
+                     Abyste si mohli dopředu zmapovat terén, další info najdete na stránkách <a href="https://www.tovarna-mastnych.eu/" target="_blank">továrny.</a> <br/>
                      Kolem Lomnice je sousta hezkých turistických tras, takže můžete v neděli po svatbě vyrazit
                      rovnou na výlet do okolí. <br/>
                      <br/>
@@ -74,9 +74,9 @@ function Landing() {
                      512 51
                  </p>
 
-                 <a href="https://mapy.cz/zakladni?x=15.3690748&y=50.5277814&z=17&source=firm&id=13016957"><img src={Mapa} alt="Mapa"/></a>
+                 <a href="https://mapy.cz/zakladni?x=15.3690748&y=50.5277814&z=17&source=firm&id=13016957" target="_blank"><img src={Mapa} alt="Mapa"/></a>
 
-                 <p><a href="https://mapy.cz/zakladni?x=15.3690748&y=50.5277814&z=17&source=firm&id=13016957">odkaz na mapy.cz</a></p>
+                 <p><a href="https://mapy.cz/zakladni?x=15.3690748&y=50.5277814&z=17&source=firm&id=13016957" target="_blank">odkaz na mapy.cz</a></p>
                  <p>
                      <b>Autem:</b> <br/>
                      Po dálnici, parkovat lze u továrny (1,5 hod z Prahy)<br/>
