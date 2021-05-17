@@ -32,7 +32,7 @@ function Landing() {
 
                  <h2>Co na sebe?</h2>
                  <p>Ikdyž se to může zdát, nenutíme nikoho do žádného speciálního dresscodu. Pokud byste se ale
-                     cítili na outtfit připomínající přelom tisíciletí, nebráníme se tomu. Je pro nás hlavní, abyste
+                     cítili na outtfit připomínající přelom století, nebráníme se tomu. Je pro nás hlavní, abyste
                      se cítili pohodlně.</p>
 
                  <h2>Co můj + 1?</h2>
@@ -54,7 +54,7 @@ function Landing() {
                  </p>
 
                  <h2>Dary?</h2>
-                 <p>Pokud nemáte v rukávu nějaký skvělý nápad na svatební dar, můžete se inspirovat <a
+                 <p>Pokud nemáte v rukávu nějaký skvělý nápad na svatební dar, můžete se prosím inspirovat <a
                      href="https://youtu.be/eqayXnc2XKY" target="_blank">tady</a>.</p>
 
                  <h2>Něco s sebou?</h2>
