@@ -4,3 +4,47 @@
   font-weight: normal;
   font-style: normal;
 }
+
+.lang-switch {
+  position: absolute;
+  top: 0;
+  right: 0;
+  padding: 2rem 2rem;
+
+  a {
+    color: black;
+    text-decoration: none;
+    padding: .5rem 1rem;
+
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+
+  .active {
+    border: 1px solid black;
+  }
+}
+
+@media only screen and (max-width: 780px) {
+  .lang-switch {
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding: 1rem 1rem;
+
+    a {
+      color: black;
+      text-decoration: none;
+      padding: .25rem .5rem;
+
+      &:hover {
+        text-decoration: underline;
+      }
+    }
+
+    .active {
+      border: 1px solid black;
+    }
+  }
+}
